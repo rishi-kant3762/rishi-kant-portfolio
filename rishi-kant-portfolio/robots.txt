@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rishi-kant3762.github.io/rishi-kant-portfolio/sitemap.xml

@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Close the mobile menu after selecting a section.
   document.querySelectorAll('#mainNav .nav-link, #mainNav .btn-nav').forEach(link => {
     link.addEventListener('click', () => {
       const nav = document.getElementById('mainNav');
@@ -9,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Project category filters.
   const filterButtons = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-wrap');
   filterButtons.forEach(button => {

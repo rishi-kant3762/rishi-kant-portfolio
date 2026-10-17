@@ -1,21 +1,11 @@
-# Rishi Kant Portfolio
+# Rishi Kant Portfolio – Google-ready deployment
 
-A responsive personal portfolio built with HTML5, CSS3, Bootstrap 5.3, Bootstrap Icons, and vanilla JavaScript.
+Upload the files in this folder directly to the ROOT of the `rishi-kant-portfolio` GitHub repository (same level as README.md). Do not upload the containing folder itself.
 
-## Run locally
-1. Extract the ZIP.
-2. Open `index.html` in a browser, or place the folder inside `C:\xampp\htdocs\` and visit `http://localhost/rishi-kant-portfolio/`.
-3. Internet is needed for Bootstrap, Google Fonts, icons, and remote project preview images.
+In GitHub repository Settings → Pages, set Deploy from a branch → `main` → `/(root)` and Save. Once deployed, the public URL should display the full page rather than "my portfolio".
 
-## Before publishing
-- Check every live project link and remove projects you did not personally build.
-- The project thumbnails are representative remote images, not verified screenshots of the live websites.
-- Update the MCA status/institution and add institution names and education years.
-- Verify the two demo folder URLs under your GitHub Pages portfolio. If the folder paths are different, edit them in `index.html`.
-- Add a real downloadable CV if you want a Resume button.
-- The supplied GitHub link was treated as a portfolio URL, so GitHub profile links use `https://github.com/rishi-kant3762`.
+Then use Google Search Console → URL-prefix property → verify ownership → URL Inspection → Request indexing. Submit `https://rishi-kant3762.github.io/rishi-kant-portfolio/sitemap.xml` in Sitemaps.
 
-## Files
-- `index.html` — portfolio content and project links
-- `style.css` — responsive dark visual theme
-- `script.js` — mobile nav close and project filters
+SEO additions: canonical URL, description, social metadata, ProfilePage structured data, robots.txt, sitemap.xml and Instagram link.
+
+Before publishing: check education details, projects/credits, contact details, images, and personal information for accuracy. Google indexing is not guaranteed.
